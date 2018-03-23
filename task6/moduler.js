@@ -9,4 +9,4 @@ filterFn(dir, filterStr, function (err, list) {
   list.forEach(function (file) {
     console.log(file)
   })
-})
+}) 

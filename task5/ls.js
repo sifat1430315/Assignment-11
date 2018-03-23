@@ -6,4 +6,4 @@ fs.readdir(process.argv[2], function (err, list) {
     if (path.extname(file) === '.' + process.argv[3])
       console.log(file)
   })
-})
+}) 
